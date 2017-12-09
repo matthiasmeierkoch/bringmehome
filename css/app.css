@@ -1,0 +1,13 @@
+.cell {
+  background: rgba(200, 200, 200, 0.5);
+  border: 1px solid white;
+}
+
+/*img{
+    width:100%;
+    max-width:auto !important;
+}*/
+
+img {
+  padding: 30px;
+}
