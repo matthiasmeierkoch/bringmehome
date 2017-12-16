@@ -1,7 +1,20 @@
-.cell {
-  background: rgba(200, 200, 200, 0.5);
-  border: 1px solid white;
+
+
+.spacer{
+  padding-top: 3500px;
 }
+
+.box{
+  background-color: silver;
+  border-radius: 25px;
+  padding: 20px;
+
+}
+
+h1{
+  font-size: 4em;
+}
+
 
 /*img{
     width:100%;

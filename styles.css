@@ -111,7 +111,7 @@ body {
     margin: 0 auto;
     line-height: 2;
     letter-spacing: 1px;
-    text-align: justify;
+
 }
 
 section {
@@ -219,6 +219,6 @@ video#bgvid {
     -moz-transform: translateX(-50%) translateY(-50%);
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
-    background: url(polina.jpg) no-repeat;
+    background: url() no-repeat;
     background-size: cover;
 }
