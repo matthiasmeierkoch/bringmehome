@@ -98,7 +98,7 @@ $(document).ready(function(){
         $(this).preventDefault();
         alert('hello');
     });
-
+/*
     $(document).on('scroll', function(){
 
         maxAttr = $('#progressBar').attr('max');
@@ -120,10 +120,11 @@ $(document).ready(function(){
             document.styleSheets[0].addRule('.semantic::-webkit-progress-value', 'background-color: green');
             document.styleSheets[0].addRule('.semantic::-moz-progress-bar', 'background-color: green');
         }
+
+
     });
-
+*/
 });
-
 
 
 
@@ -144,11 +145,25 @@ vid.addEventListener('loadedmetadata', function() {
 });
 
 
-// Use requestAnimationFrame for smooth playback
-function scrollPlay(){
-    var frameNumber  = window.pageYOffset/playbackConst;
-    vid.currentTime  = frameNumber;
-    window.requestAnimationFrame(scrollPlay);
-}
 
-window.requestAnimationFrame(scrollPlay);
+$(document).ready(function(){
+
+
+    // Use requestAnimationFrame for smooth playback
+    function scrollPlay(){
+        var frameNumber  = window.pageYOffset;
+
+
+            // console.log("test");
+
+        // if(frameNumber%2==0){
+            frameNumber=frameNumber/playbackConst;
+            vid.currentTime  = frameNumber;
+        // }
+       window.requestAnimationFrame(scrollPlay);
+    }
+
+
+    window.requestAnimationFrame(scrollPlay);
+
+});

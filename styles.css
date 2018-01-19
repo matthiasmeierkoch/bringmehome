@@ -133,30 +133,45 @@ nav {
 a {
     position: relative;
     display: inline-block;
-    margin: 10px;
     outline: none;
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 400;
-    text-shadow: 0 0 1px rgba(255, 255, 255, 0.3);
+
     font-size: 1em;
     padding: 5px 0px 0px;
     width: auto;
-    color: #9ab;
+    color: #FFFFFF;
     font-weight: 700;
     transition: color 0.3s;
-    border-bottom: 2px solid transparent;
+
+    border-bottom: 2px solid #fff;
 }
 
 a:hover, a:focus, .active {
-    color: #fff;
+    color: #1FFFFF;
     cursor: pointer;
     border-bottom: 2px solid #fff;
 }
 
 p {
-    text-indent: 50px;
+
+    position: relative;
+    display: inline-block;
+    outline: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+
+    font-size: 1em;
+    padding: 5px 0px 0px;
+    width: auto;
+    color: #FFFFFF;
+    font-weight: 700;
+    transition: color 0.3s;
+    border-bottom: 2px solid transparent;
 }
 
 p:first-of-type {
