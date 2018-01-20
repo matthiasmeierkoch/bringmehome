@@ -204,7 +204,8 @@ p {
     font-weight: 400;
 
     font-size: 1em;
-    padding: 5px 0px 0px;
+    padding: 0px;
+    margin: 0px;
     width: auto;
     color: #FFFFFF;
     font-weight: 700;
@@ -231,8 +232,6 @@ blockquote {
 }
 
 
-
-
 #set-height{
 display: block;
 }
@@ -255,8 +254,8 @@ display: block;
 }
 
 p{
-    font-family: JeanLucWeb-Bold;
-    font-size: 24px;
+    font-family: JeanLucWeb-Thin;
+    font-size: 1.6rem;
 }
 
 video#bgvid {
@@ -304,8 +303,8 @@ Jean-Luc typeface Copyright (c) 2010 Atelier Carvalho Bernau
 .popup {
     font-family: JeanLucWeb-Bold;
     color: #FFFFFF;
-    background-color: red;
-    padding: 30px;
+    background-color: #f5c600;
+    padding: 15px;
     right: 10px;
     bottom: 10px;
     position: fixed;
@@ -321,20 +320,20 @@ Jean-Luc typeface Copyright (c) 2010 Atelier Carvalho Bernau
 .popup .popuptext {
     visibility: hidden;
     width: 600px;
-    background-color: red;
-    color: #fff;
+    background-color: #f5c600;
+    color: #000000;
     text-align: left;
     border-radius: 6px;
     padding: 30px;
     position: absolute;
     z-index: 1;
-    bottom: 125%;
+    bottom: 0%;
     left: 50%;
     margin-left: -500px;
 
 }
 
-/* Popup arrow */
+/* Popup arrow
 .popup .popuptext::after {
     content: "";
     position: absolute;
@@ -343,14 +342,14 @@ Jean-Luc typeface Copyright (c) 2010 Atelier Carvalho Bernau
     margin-left: 180px;
     border-width: 5px;
     border-style: solid;
-    border-color: red transparent transparent transparent;
-}
+    border-color: #FFFFFF transparent transparent transparent;
+}*/
 
 /* Toggle this class - hide and show the popup */
 .popup .show {
     visibility: visible;
-    -webkit-animation: fadeIn 1s;
-    animation: fadeIn 1s;
+    -webkit-animation: fadeIn 0,5s;
+    animation: fadeIn 0,5s;
 }
 
 .buttom{
@@ -367,4 +366,13 @@ Jean-Luc typeface Copyright (c) 2010 Atelier Carvalho Bernau
 @keyframes fadeIn {
     from {opacity: 0;}
     to {opacity:1 ;}
+}
+
+.lauftext{
+    font-family: Montserrat;
+    font-size: 1rem;
+}
+
+.abouttitle{
+    font-family: JeanLucWeb-Bold;nt
 }
