@@ -10,20 +10,36 @@
   <link rel="stylesheet" href="./styles.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/x-icon" href="./img/home.png">
-  <title>Grids and Modules </title>
+  <title>bring me home</title>
 
 </head>
 
 <body>
 
+
+<!-- Title -->
+<div class="grid-x firsttitle">
+
+    <h1 class="large-2 large-offset-2" style="color: red"> Bring</h1>
+</div>
+
 <div class="grid-x">
-<h1> // Grids and Modules //</h1>
+    <h1 class="large-offset-3" style="color: white"> Me</h1>
+    <h1 class="space" style="color: red"> Home</h1>
 </div>
 
-<div class="grid-x cell-small-12 large-6 spacer">
-    <p> Hallo Welt!<br>Für das beste Elebniss dieser Seite, öffne diese Seite im Browser Safari. Weiter Informationen über das Projekt findest du auf der <a target="_blank" href="https://matthiasmeierkoch.github.io/about/">about Seite</a> </p>
+<!-- Info Popup -->
+
+
+<div class="buttom popup" onclick="myFunction()">info!
+    <span class="popuptext" id="myPopup"><p> Hallo Welt!<br>Für das beste Elebniss dieser Seite, öffne diese Seite im Browser Safari. Weiter Informationen
+        über das Projekt findest du auf der <a target="_blank" href="https://matthiasmeierkoch.github.io/about/">about Seite </span>
 </div>
 
+
+
+
+<!-- Video -->
 <div class="background">
 <div id="set-height"></div>
 <p id="time"></p>
@@ -34,12 +50,14 @@
     </video>
 </div>
 
+<!-- Progressbar -->
 <progress value="0" id="progressBar">
     <div class="progress-container">
         <span class="progress-bar"></span>
     </div>
 </progress>
 
+<!-- JS Scripts -->
 <script src="js/vendor/jquery.js"></script>
   <script src="js/vendor/what-input.js"></script>
   <script src="js/vendor/foundation.js"></script>

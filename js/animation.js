@@ -167,3 +167,11 @@ $(document).ready(function(){
     window.requestAnimationFrame(scrollPlay);
 
 });
+
+// pop up
+
+
+function myFunction() {
+    var popup = document.getElementById("myPopup");
+    popup.classList.toggle("show");
+}
