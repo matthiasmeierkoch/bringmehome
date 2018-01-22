@@ -140,10 +140,15 @@ var frameNumber = 0, // start video at frame 0
 // var vid = $('#v0')[0]; // jquery option
 
 // dynamically set the page height according to video length
-vid.addEventListener('loadedmetadata', function() {
+// If video metadata not loaded, listen for load.
+// Else, check if already loaded.
+if (vid.readyState === 0) {
+  vid.addEventListener( "loadedmetadata", function (e) {
     setHeight.style.height = Math.floor(vid.duration) * playbackConst + "px";
-});
-
+  });
+} else if (vid.readyState >= 1) {
+  setHeight.style.height = Math.floor(vid.duration) * playbackConst + "px";
+}
 
 
 $(document).ready(function(){
