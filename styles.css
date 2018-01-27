@@ -33,6 +33,15 @@ h1{
     line-height: 100%;
 }
 
+h2{
+    font-size: 3rem;
+    color: #FFFFFF;
+    line-height: normal;
+    margin-top: 0px;
+-webkit-margin-after: 10px;
+    padding: 10px;
+}
+
 
 .space{
     margin-left: 0.4em;
@@ -175,14 +184,13 @@ a {
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 1px;
-    font-weight: 400;
-
     font-size: 1em;
     padding: 5px 0px 0px;
     width: auto;
     color: #FFFFFF;
     font-weight: 700;
     transition: color 0.3s;
+    line-height: normal;
 
     border-bottom: 2px solid #fff;
 }
@@ -201,10 +209,8 @@ p {
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 1px;
-    font-weight: 400;
-
     font-size: 1em;
-    padding: 0px;
+    padding: 10px;
     margin: 0px;
     width: auto;
     color: #FFFFFF;
@@ -323,7 +329,7 @@ Jean-Luc typeface Copyright (c) 2010 Atelier Carvalho Bernau
     background-color: #f5c600;
     color: #000000;
     text-align: left;
-    border-radius: 6px;
+    border-radius: 0px;
     padding: 30px;
     position: absolute;
     z-index: 1;
@@ -375,6 +381,7 @@ Jean-Luc typeface Copyright (c) 2010 Atelier Carvalho Bernau
 
 .abouttitle{
     font-family: JeanLucWeb-Bold;nt
+    font-size: 2rem;
 }
 
 .fin{
